@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ap-acquiring-service" />
+        <module name="ap-acquiring-facade" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ap-acquiring" target="1.8" />
+      <module name="ap-acquiring-application" target="19" />
+      <module name="ap-acquiring-facade" target="1.8" />
+      <module name="ap-acquiring-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ap-acquiring-application" options="-parameters" />
+      <module name="ap-acquiring-facade" options="-parameters" />
+      <module name="ap-acquiring-service" options="-parameters" />
+    </option>
+  </component>
+</project>

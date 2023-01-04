@@ -1,0 +1,4 @@
+corp\bi\go\id\ap\acquiring\AcquiringApplication.class
+corp\bi\go\id\ap\acquiring\entity\OrderHeaderUB.class
+corp\bi\go\id\ap\acquiring\service\OrderService.class
+corp\bi\go\id\ap\acquiring\kafka\KafkaConfiguration.class

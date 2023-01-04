@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ap-acquiring.iml" filepath="$PROJECT_DIR$/ap-acquiring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ap-acquiring-facade/ap-acquiring-facade.iml" filepath="$PROJECT_DIR$/ap-acquiring-facade/ap-acquiring-facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ap-acquiring-service/ap-acquiring-service.iml" filepath="$PROJECT_DIR$/ap-acquiring-service/ap-acquiring-service.iml" />
+    </modules>
+  </component>
+</project>
